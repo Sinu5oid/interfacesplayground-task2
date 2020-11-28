@@ -2,7 +2,7 @@ package com.sine;
 
 public class AlcoholBrew extends BaseBrew {
     // value-added-tax
-    double vat;
+    private final double vat;
 
     public AlcoholBrew(String name, double basePrice, double volume) {
         super(name, basePrice,volume);

@@ -18,10 +18,6 @@ public class BaseBrew extends AbstractBrew {
         return volume;
     }
 
-    public void setBasePrice(double basePrice) {
-        this.basePrice = basePrice;
-    }
-
     public double countPrice() {
         return this.basePrice * this.volume;
     }
